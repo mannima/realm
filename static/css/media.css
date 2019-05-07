@@ -1,0 +1,36 @@
+@media screen and (min-width:1200px){
+    .logo{
+        margin:0 90px 0 15px;
+    }
+    .collapse{
+        position:fixed;
+        width:200px;
+        height:100%;
+        background:#292a2f;
+        left:0!important;
+    }
+    .main_container{
+       
+        left:0!important;
+    }
+    .row_fulid{
+        width:100%;
+    }
+    .row_fulid:before,.row_fulid:after{
+        display: table;
+        content:"";
+        line-height:0;
+    }
+    .rowFuild{
+        width:100%;
+    }
+    
+} 
+
+
+@media screen and (min-width:980px){
+    .collapse{
+        height:auto!important;
+        overflow:visible!important;
+    }
+} 
